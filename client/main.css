@@ -1,8 +1,21 @@
 /* CSS declarations go here */
 
-/* Should be inside html as link, but exception for quick prototyping */
 
-@import url(https://fonts.googleapis.com/css?family=Tenor+Sans|Montserrat|Montaga);
+/* Should be inside html as link, but exception for quick prototyping */
+@import url(https://fonts.googleapis.com/css?family=Tenor+Sans|Montserrat|Satisfy);
+
+html {
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
 body {
   background: #e43a15;
   background: linear-gradient(to left, #e43a15, #e65245);
@@ -10,14 +23,34 @@ body {
   font-family: 'Tenor Sans', serif;
   font-size: 14px;
   line-height: 1.4;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
 }
 
 header h2 {
-  letter-spacing: .2rem;
+  letter-spacing: .3rem;
+  font-size: 1.4rem;
+  font-family: Montserrat, sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  text-shadow: 2px 4px 0 #e41515;
+}
+
+header h4 {
+  text-align: center;
+  font-family: 'Satisfy', cursive;
+  text-shadow: 2px 2px 0 #e41515;
+}
+
+header h3 {
+  letter-spacing: 0;
   font-size: 1rem;
   font-family: Montserrat, sans-serif;
   text-transform: uppercase;
   text-align: center;
+  text-shadow: 2px 4px 0 #e41515;
+  margin: 0;
 }
 
 .container {

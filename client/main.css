@@ -1,1 +1,49 @@
 /* CSS declarations go here */
+
+/* Should be inside html as link, but exception for quick prototyping */
+
+@import url(https://fonts.googleapis.com/css?family=Tenor+Sans|Montserrat|Montaga);
+body {
+  background: #e43a15;
+  background: linear-gradient(to left, #e43a15, #e65245);
+  color: #fff;
+  font-family: 'Tenor Sans', serif;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+header h2 {
+  letter-spacing: .2rem;
+  font-size: 1rem;
+  font-family: Montserrat, sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.container {
+  width: 700px;
+  margin: 100px auto 10px;
+}
+
+ul {
+  padding: 20px;
+  list-style: none;
+  width: 100%;
+}
+
+li {
+  background-color: #eee;
+  color: #222;
+  margin: 10px 20px;
+  padding: 10px;
+  opacity: 0.9;
+  border-radius: 2px;
+  box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.2);
+  transition: .4ms box-shadow;
+}
+
+li:hover {
+  cursor: pointer;
+  box-shadow: 0 2px 1px 1px rgba(0, 0, 0, 0.3);
+  transition: .4ms box-shadow;
+}

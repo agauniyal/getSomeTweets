@@ -1,5 +1,7 @@
 # getSomeTweets
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/agauniyal/getSomeTweets.svg)](https://greenkeeper.io/)
+
 Steps:
 
 - git clone https://github.com/agauniyal/getSomeTweets.git
